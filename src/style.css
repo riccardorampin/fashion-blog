@@ -9,7 +9,7 @@ ul li{
 }
 .fab1{
     color: #ffffff;
-    padding: 500px 0;
+    padding: 500px 0 50px; 
     flex: 0 1 auto;
     align-self: auto;
 }
@@ -31,8 +31,8 @@ ul li{
 .centered{
     background-image: url('img/jane.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 100%;
+    background-position: center;
+    min-height: 1100px;
 
 }
 .card-bg{
@@ -46,4 +46,7 @@ ul li{
 .titolo{
     text-align: center;
     font-weight: bold;
+}
+.cazzo{
+    
 }
