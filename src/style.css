@@ -1,5 +1,5 @@
 body{
-    font-family: 'Open Sans', monospace;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 ul li{
     display: inline !important; 
@@ -7,32 +7,45 @@ ul li{
 .fab{
     color: #ffffff;
 }
+.fab1{
+    color: #ffffff;
+    padding: 500px 0;
+    flex: 0 1 auto;
+    align-self: auto;
+}
 .fas{
     color: #ffffff;
 }
-.search{
-    
-    
-}
 .title{
     font-weight: bold;
-    text-align: center;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: stretch;
 }
 .margint{
     margin-top: 50px;
+    justify-content: center;
+    align-content: center;
 }
 .marginb{
     margin-bottom: 50px;
 }
 .bg-img{
-    margin: 0 0 0 0 !important;
-    padding: 0 0 0 0 !important;
     width: 100%;
     height: auto;
-    max-width: 300px;
-    max-height: 300px;
 }
 .centered{
-    
+    background-image: url('img/jane.jpg');
+    background-repeat: no-repeat;
+
+}
+.card-bg{
+    background-color: black;
+    color: #ffffff;
+}
+.post-thumb{
+    max-width: 80px;
+    max-height: 80px;
 }
