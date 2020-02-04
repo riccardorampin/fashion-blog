@@ -55,7 +55,7 @@
             <div class="col-12 centered">
                 <div class="container-fluid">
                     <h2 class="fab1">Jane's FASHION BLOG</h2>
-                    <button type="button" class="btn cazzo">SUBSCRIBE</button>
+                    <button type="button" class="subscribe btn cazzo" data-toggle="modal" data-target="#exampleModal">SUBSCRIBE</button> 
                 </div>
             </div>
         </div>
@@ -262,6 +262,33 @@
             </div>
         </div>
     </div>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
 
     <script src="https://kit.fontawesome.com/533b96adf8.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" 
