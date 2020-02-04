@@ -48,5 +48,6 @@ ul li{
     font-weight: bold;
 }
 .cazzo{
-    
+    background-color: rgba(131, 127, 127, 0.5);
+    color: #ffffff;
 }
